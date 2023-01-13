@@ -1,0 +1,397 @@
+/**************ROOTS */
+:root {
+    /* COLORS */
+    --emphasis: #C87753;
+    --mid-orange: #E8D0AE;
+    --light-orange: #F6EBDD;
+    --bg: #FCF6F1;
+    --text-color: #691A00;
+    /* SPACING */
+    --padding: 10px;
+    --padding-large: 30px;
+    --space: 5rem;
+    --small-space: 2rem;
+    --nav: 69px;
+  }
+  
+  /**************MAIN */
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    margin: 0;
+    min-height: 100%;
+  }
+  
+  h1, h2, h3 {
+    color: var(--text-color);
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  h4 {
+    /* color: var(--emphasis);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 2; */
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  body {
+    background-color: var(--bg);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  
+  footer a:hover {
+    color: var(--emphasis);
+    transition: 0.3s;
+  }
+  
+  /**************CLASS */
+  /* COLOR */
+  .header-bg {
+    background-color: var(--mid-orange);
+  }
+  .color-bg {
+    background-color: var(--light-orange);
+  }
+
+  .bg-bg {
+    background-color: var(--bg);
+  }
+  
+  .dark-bg {
+    background-color: var(--text-color);
+  }
+  
+  .em-bg {
+    background-color: var(--emphasis);
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  /* DIV BOX */
+  .shadow-box {
+    box-shadow: 0px 5px 10px 1px gray;
+  }
+  
+  .center-block {
+    margin: auto;
+  }
+  
+  /* TEXT */
+  .center-text {
+    text-align: center;
+  }
+  
+  .shadow-text {
+    text-shadow: 4px 4px 20px black;
+  }
+  
+  .pad-heading {
+    padding-bottom: 15px;
+  }
+  
+  .all-caps {
+    text-transform: uppercase;
+  }
+  
+  .dunamis {
+    font-weight: 800;
+    /* color: var(--emphasis); */
+    color: var(--bg);
+  }
+  
+  .breadcrumb:hover {
+    color: var(--emphasis);
+    transition: 0.3s;
+  }
+  
+  /* SPACE */
+  .padding {
+    padding: var(--padding);
+  }
+  
+  .spacing {
+    padding: var(--space) 0rem;
+  }
+  
+  .spacing-top {
+    padding-top: var(--space);
+  }
+  
+  .spacing-bottom {
+    padding-bottom: var(--space);
+  }
+  
+  .small-spacing {
+    padding: var(--small-space) 0rem;
+  }
+  
+  .small-spacing-top {
+    padding-top: var(--small-space);
+  }
+  
+  .small-spacing-bottom {
+    padding-bottom: var(--small-space);
+  }
+  
+  .left-space {
+    padding-left: var(--small-space);
+  }
+  
+  .right-space {
+    padding-right: var(--small-space);
+  }
+  
+  .text-space-h4 {
+    padding-top: 15px;
+  }
+  
+  .nav-spacing {
+    margin-top: var(--nav);
+  }
+  
+  .width {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .half-width {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* NAVBAR */
+  .toggle {
+    display: none;
+  }
+  
+  .menu {
+    margin: 10px 20px 10px 10px;
+  }
+  
+  .menu a:hover {
+    color: var(--emphasis);
+    transition: 0.3s;
+  }
+  
+  .menu li {
+    display: inline-block;
+    padding: 17px;
+  }
+  
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+  
+  .logo h3 {
+    display: inline-block;
+  }
+
+  .logo {
+    padding-left: var(--padding-large);
+  }
+
+  .logo-span {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+  }
+
+  .nav-shadow {
+    box-shadow: 0px 1px 2px 0px black;
+  }
+  
+  /* HAMBURGER */
+  .toggle {
+    padding-top: 6px;
+  }
+  
+  .hamburger .line {
+    width: 50px;
+    height: 2px;
+    background-color: var(--text-color);
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(13px) rotate(45deg);
+    -ms-transform: translateY(13px) rotate(45deg);
+    -o-transform: translateY(13px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
+  }
+  
+  #hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+    /* x alignment */
+    margin-top: 13.75px;
+  }
+  
+  /* PICTURE BACKGROUND */
+  .pic-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .pg-break {
+    height: 20rem;
+  }
+
+  
+  /* HEADER */
+  .header {
+    padding: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* PICTURE COLUMN */
+  .pic-col {
+    display: flex;
+  }
+  
+  /* THREE COLUMN */
+  .grid-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .grid-unit {
+    padding: var(--padding-large);
+  }
+  
+  .bottom-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    margin: auto;
+  }
+
+  /* LIST */
+  .list {
+    font-size: 1.2rem;
+  }
+
+  .list li:before {
+    content: "— ";
+  }
+  
+  /* BUTTON */
+  .btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px 0px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .btn-dark:hover {
+    background-color: var(--dark);
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .btn-dark {
+    border: 1px solid var(--text-color);
+  }
+  
+  .btn-white {
+    border: 1.5px solid white;
+    background-color: white;
+  }
+  
+  .btn-white:hover {
+    border: 1.5px solid var(--emphasis);
+    background-color: var(--emphasis);
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .btn-clr {
+    /* filter: brightness(0.8); */
+    border: 1.5px solid white;
+    color: white;
+  }
+  
+  .btn-clr:hover {
+    background-color: white;
+    color: var(--text-color);
+    transition: 0.3s;
+  }
+  
+  
