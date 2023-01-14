@@ -69,7 +69,8 @@
         flex-direction: column;
     }
 
-    .left-space {
+    .left-space,
+    .right-space {
         padding-left: 0;
     }
 
@@ -80,6 +81,10 @@
 }
 
 @media (max-width: 570px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+
     footer {
         flex-direction: column;
         text-align: center;
