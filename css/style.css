@@ -12,37 +12,39 @@
     --space: 5rem;
     --small-space: 2rem;
     --nav: 69px;
-  }
-  
-  /**************MAIN */
-  * {
+}
+
+/**************MAIN */
+* {
     box-sizing: border-box;
-  }
-  
-  html {
+}
+
+html {
     margin: 0;
     min-height: 100%;
-  }
-  
-  h1, h2, h3 {
+}
+
+h1,
+h2,
+h3 {
     color: var(--text-color);
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 5rem;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 3rem;
-  }
-  
-  h3 {
+}
+
+h3 {
     font-size: 2rem;
-  }
-  
-  h4 {
+}
+
+h4 {
     /* color: var(--emphasis);
     font-size: 1.1rem;
     font-weight: 600;
@@ -50,218 +52,228 @@
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
-  }
-  
-  p {
+}
+
+p {
     font-size: 1.2rem;
-  }
-  
-  body {
+}
+
+body {
     background-color: var(--bg);
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     margin: 0;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: var(--text-color);
-  }
-  
-  button {
+}
+
+button {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     background: none;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
-  }
-  
-  footer {
+}
+
+footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: var(--emphasis);
     transition: 0.3s;
-  }
-  
-  /**************CLASS */
-  /* COLOR */
-  .header-bg {
-    background-color: var(--mid-orange);
-  }
-  .color-bg {
-    background-color: var(--light-orange);
-  }
+}
 
-  .bg-bg {
+/**************CLASS */
+/* COLOR */
+.header-bg {
+    background-color: var(--mid-orange);
+}
+
+.color-bg {
+    background-color: var(--light-orange);
+}
+
+.bg-bg {
     background-color: var(--bg);
-  }
-  
-  .dark-bg {
+}
+
+.dark-bg {
     background-color: var(--text-color);
-  }
-  
-  .em-bg {
+}
+
+.em-bg {
     background-color: var(--emphasis);
-  }
-  
-  .white-text {
+}
+
+.white-text {
     color: white;
-  }
-  
-  /* DIV BOX */
-  .shadow-box {
+}
+
+.contact-a:hover {
+    color: #982703;
+    transition: 0.3s;
+}
+
+.light-a {
+    color: #982703;
+}
+
+/* DIV BOX */
+.shadow-box {
     box-shadow: 0px 5px 10px 1px gray;
-  }
-  
-  .center-block {
+}
+
+.center-block {
     margin: auto;
-  }
-  
-  /* TEXT */
-  .center-text {
+}
+
+/* TEXT */
+.center-text {
     text-align: center;
-  }
-  
-  .shadow-text {
+}
+
+.shadow-text {
     text-shadow: 4px 4px 20px black;
-  }
-  
-  .pad-heading {
+}
+
+.pad-heading {
     padding-bottom: 15px;
-  }
-  
-  .all-caps {
+}
+
+.all-caps {
     text-transform: uppercase;
-  }
-  
-  .dunamis {
+}
+
+.dunamis {
     font-weight: 800;
     /* color: var(--emphasis); */
     color: var(--bg);
-  }
-  
-  .breadcrumb:hover {
+}
+
+.breadcrumb:hover {
     color: var(--emphasis);
     transition: 0.3s;
-  }
-  
-  /* SPACE */
-  .padding {
+}
+
+/* SPACE */
+.padding {
     padding: var(--padding);
-  }
-  
-  .spacing {
+}
+
+.spacing {
     padding: var(--space) 0rem;
-  }
-  
-  .spacing-top {
+}
+
+.spacing-top {
     padding-top: var(--space);
-  }
-  
-  .spacing-bottom {
+}
+
+.spacing-bottom {
     padding-bottom: var(--space);
-  }
-  
-  .small-spacing {
+}
+
+.small-spacing {
     padding: var(--small-space) 0rem;
-  }
-  
-  .small-spacing-top {
+}
+
+.small-spacing-top {
     padding-top: var(--small-space);
-  }
-  
-  .small-spacing-bottom {
+}
+
+.small-spacing-bottom {
     padding-bottom: var(--small-space);
-  }
-  
-  .left-space {
+}
+
+.left-space {
     padding-left: var(--small-space);
-  }
-  
-  .right-space {
+}
+
+.right-space {
     padding-right: var(--small-space);
-  }
-  
-  .text-space-h4 {
+}
+
+.text-space-h4 {
     padding-top: 15px;
-  }
-  
-  .nav-spacing {
+}
+
+.nav-spacing {
     margin-top: var(--nav);
-  }
-  
-  .width {
+}
+
+.width {
     max-width: 1000px;
     width: 90%;
     margin: auto;
-  }
-  
-  .half-width {
+}
+
+.half-width {
     max-width: 500px;
     width: 100%;
-  }
-  
-  /* NAVBAR */
-  .toggle {
+}
+
+/* NAVBAR */
+.toggle {
     display: none;
-  }
-  
-  .menu {
+}
+
+.menu {
     margin: 10px 20px 10px 10px;
-  }
-  
-  .menu a:hover {
+}
+
+.menu a:hover {
     color: var(--emphasis);
     transition: 0.3s;
-  }
-  
-  .menu li {
+}
+
+.menu li {
     display: inline-block;
     padding: 17px;
-  }
-  
-  .mobile-menu {
+}
+
+.mobile-menu {
     position: fixed;
     top: 0;
     right: 0;
     z-index: 2;
-  }
-  
-  .logo h3 {
+}
+
+.logo h3 {
     display: inline-block;
-  }
+}
 
-  .logo {
-    padding-left: var(--padding-large);
-  }
+.logo {
+    padding-left: var(--padding);
+}
 
-  .logo-span {
+.logo-span {
     font-family: 'Fredericka the Great', cursive;
     font-size: 2rem;
-  }
+}
 
-  .nav-shadow {
+.nav-shadow {
     box-shadow: 0px 1px 2px 0px black;
-  }
-  
-  /* HAMBURGER */
-  .toggle {
+}
+
+/* HAMBURGER */
+.toggle {
     padding-top: 6px;
-  }
-  
-  .hamburger .line {
+}
+
+.hamburger .line {
     width: 50px;
     height: 2px;
     background-color: var(--text-color);
@@ -270,128 +282,149 @@
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .hamburger:hover {
+}
+
+.hamburger:hover {
     cursor: pointer;
-  }
-  
-  #hamburger-1.is-active .line:nth-child(2) {
+}
+
+#hamburger-1.is-active .line:nth-child(2) {
     opacity: 0;
-  }
-  
-  #hamburger-1.is-active .line:nth-child(1) {
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
     -webkit-transform: translateY(13px) rotate(45deg);
     -ms-transform: translateY(13px) rotate(45deg);
     -o-transform: translateY(13px) rotate(45deg);
     transform: translateY(13px) rotate(45deg);
-  }
-  
-  #hamburger-1.is-active .line:nth-child(3) {
-    -webkit-transform: translateY(-13px) rotate(-45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-13px) rotate(-45deg);pic
     -ms-transform: translateY(-13px) rotate(-45deg);
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
     /* x alignment */
     margin-top: 13.75px;
-  }
-  
-  /* PICTURE BACKGROUND */
-  .pic-bg {
+}
+
+/* PICTURE BACKGROUND */
+.pic-bg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
-  
-  .pg-break {
-    height: 20rem;
-  }
+}
 
-  
-  /* HEADER */
-  .header {
+.pic-header {
+    background-image: url("../img/nick-fewings-long.png");
+}
+
+.pic-services {
+    background-image: url("../img/prchi-palwe.png");
+}
+
+.pic-contact {
+    background-image: url("../img/kathryn-aleksa.jpg");
+}
+
+.pg-break {
+    height: 20rem;
+}
+
+/* HEADER */
+.header {
     padding: 5rem 0rem;
     display: flex;
     justify-content: center;
-  }
+}
 
-  /* PICTURE COLUMN */
-  .pic-col {
+.header img {
+    width: 500px;
+}
+
+/* PICTURE COLUMN */
+.pic-col {
     display: flex;
-  }
-  
-  /* THREE COLUMN */
-  .grid-col {
+}
+
+.pic-col-img {
+    width: 300px;
+}
+
+.pic-col-reverse {
+    flex-direction: row-reverse;
+}
+
+/* THREE COLUMN */
+.grid-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-  }
-  
-  .grid-unit {
+}
+
+.grid-unit {
     padding: var(--padding-large);
-  }
-  
-  .bottom-text {
+}
+
+.bottom-text {
     position: absolute;
     left: 0;
     right: 0;
     /* top: 0; */
     bottom: 0;
     margin: auto;
-  }
+}
 
-  /* LIST */
-  .list {
+/* LIST */
+.list {
     font-size: 1.2rem;
-  }
+}
 
-  .list li:before {
+.list li:before {
     content: "— ";
-  }
-  
-  /* BUTTON */
-  .btn {
+}
+
+/* BUTTON */
+.btn {
     display: inline-block;
     cursor: pointer;
     padding: 15px;
     margin: 15px 0px;
     text-align: center;
     width: 150px;
-  }
-  
-  .btn-dark:hover {
+}
+
+.btn-dark:hover {
     background-color: var(--dark);
     color: white;
     transition: 0.3s;
-  }
-  
-  .btn-dark {
+}
+
+.btn-dark {
     border: 1px solid var(--text-color);
-  }
-  
-  .btn-white {
+}
+
+.btn-white {
     border: 1.5px solid white;
     background-color: white;
-  }
-  
-  .btn-white:hover {
+}
+
+.btn-white:hover {
     border: 1.5px solid var(--emphasis);
     background-color: var(--emphasis);
     color: white;
     transition: 0.3s;
-  }
-  
-  .btn-clr {
+}
+
+.btn-clr {
     /* filter: brightness(0.8); */
     border: 1.5px solid white;
     color: white;
-  }
-  
-  .btn-clr:hover {
+}
+
+.btn-clr:hover {
     background-color: white;
     color: var(--text-color);
     transition: 0.3s;
-  }
-  
-  
+}
